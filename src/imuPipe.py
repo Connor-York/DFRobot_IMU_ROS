@@ -1,9 +1,8 @@
+#!/usr/bin/env python3
 import rospy
 import csv
 import serial
-import time
 from sensor_msgs.msg import Imu
-from datetime import datetime
 try:
     print(“Opening Serial Port”)
     ser = serial.Serial(‘/dev/ttyACM0’, 9600)
