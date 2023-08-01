@@ -4,7 +4,7 @@ import csv
 import serial
 from sensor_msgs.msg import Imu
 try:
-    print(“Opening Serial Port”)
+    print("Opening Serial Port”)
     ser = serial.Serial(‘/dev/ttyACM0’, 9600)
     print("Done with opening port:" + ser.name)
     sensor_buffer = []
