@@ -25,10 +25,6 @@ try:
 except KeyboardInterrupt:
     pass
 finally:
-    if csv_file:
-        csv_file.close()
-    if raw_data_file:
-        raw_data_file.close()
     if ser:
         ser.close()
     rospy.signal_shutdown("Program stopped by user")
