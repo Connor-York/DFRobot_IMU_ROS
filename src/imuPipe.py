@@ -20,7 +20,7 @@ try:
             print(arduino_data)
             #sensor_buffer.append(arduino_data)
         except ValueError:
-            print("Received invalid sensor data)
+            print("Received invalid sensor data")
             continue
 except KeyboardInterrupt:
     pass
