@@ -42,7 +42,7 @@ void loop()
     Serial.print(sensor.Acc.X); Serial.print(","); Serial.print(sensor.Acc.Y); Serial.print(","); Serial.print(sensor.Acc.Z); Serial.print(",");
     Serial.print(sensor.Gyro.X); Serial.print(","); Serial.print(sensor.Gyro.Y); Serial.print(","); Serial.print(sensor.Gyro.Z); Serial.print(",");
     Serial.print(sensor.Angle.X); Serial.print(","); Serial.print(sensor.Angle.Y); Serial.print(","); Serial.print(sensor.Angle.Z); 
-    Serial.println("//");
+    Serial.print("!");
   }
 }
 
